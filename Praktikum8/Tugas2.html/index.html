@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    
+        header, footer, article, aside {
+            padding: 10px;
+            margin: 10px;
+        }
+    
+        header {
+            background-color: #FFC0CB;
+            text-align: center;
+        }
+    
+        footer {
+            background-color: #FFC0CB;
+            text-align: center;
+        }
+    
+        main {
+            display: flex;
+            flex: 1;
+        }
+    
+        aside {
+            flex: 1;
+            background-color: #ADD8E6;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    
+        article {
+            flex: 2;
+            background-color: #98FB98;
+            display: flex;
+            align-items: center; 
+            justify-content: space-around; 
+        }
+    
+        .box {
+            width: 60px;
+            height: 60px;
+            margin-right: 5px;
+            background-color: aqua;
+        }
+        img {
+            width: 10em;
+        }
+    </style>
+    
+    
+</head>
+<body>
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <main>
+        <aside>
+            <h1>Aside</h1>
+        </aside>
+
+        <article>
+            <div class="box">
+                <img src="WhatsApp Image 2023-11-25 at 19.03.14_4bf4210b.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="WhatsApp Image 2023-11-25 at 19.09.17_e409b95a.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="WhatsApp Image 2023-11-25 at 19.03.15_56a6302f.jpg" alt="">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+</body>
+</html>

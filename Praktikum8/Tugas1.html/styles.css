@@ -1,0 +1,39 @@
+    body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    }
+    #main {
+    display: flex;
+    flex: 1;
+    }
+    #main > article {
+    flex: 1;
+    order: 1;
+    text-align: center;
+    }
+    #main > aside {
+    flex: 0 0 20vw;
+    text-align: center;
+    }
+    nav {
+    background: #03DAC5;;
+    height: 100%;
+    position: fixed;
+    width: 10%;
+    text-align: center;
+    }
+    #main > aside {
+    background: pink;
+    order: 2;
+    }
+    header, footer {
+    background: khaki   ;
+    height: 20vh;
+    text-align: center;
+    }
+    header, footer, article, nav, aside {
+    padding: 1em;
+    }
+    
